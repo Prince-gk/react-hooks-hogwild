@@ -1,4 +1,4 @@
-# HogWild: The React app for fans of prize-winning pigs
+# Hogwarts: The React app for fans of prize-winning pigs
 
 ## React Week 1 Project
 
@@ -6,7 +6,7 @@
 
 - _When the app first loads_, display a tile for each hog in the
   `porker_data.js` file. In the tile, display the **name** and **image** for
-  each hog.
+  each hog. Use the images in the `assets` folder.
 - _When the user clicks on the hog tile_, display the other details about the
   hog (its **specialty**, **weight**, **greased**, and **highest medal
   achieved**)
@@ -22,7 +22,7 @@
 
 - Follow
   [React best practices](https://reactjs.org/docs/thinking-in-react.html) to
-  create components and decide where state needs to live
+  create components and decide on where state needs to live based on
 - Pass props down from parent components to children
 - Use inverse data flow and callback functions to pass data up from child
   components to parents
@@ -38,8 +38,6 @@
 There are lots of ways to build this project, and while some ways are better
 than others, there is no 'right' way! Start by wireframing what you want the app
 to look like and breaking it up into components.
-
-One good model to follow for this is [Thinking in React](https://reactwithhooks.netlify.app/docs/thinking-in-react.html).
 
 Once you've decided on your components, use the MVP (minimum viable product)
 approach. What's the simplest thing we can render to the page? Perhaps a
